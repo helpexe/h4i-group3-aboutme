@@ -26,8 +26,9 @@
 
 img {
     max-width: 100%;
-    height: auto;
-    border-radius: 5px;
+    height: 200px;
+    float: right;
+    margin-right: 750px;
 }
 
 ul {
@@ -37,4 +38,5 @@ ul {
 
 li {
     margin-bottom: 10px;
+    text-align: justify; 
 }
