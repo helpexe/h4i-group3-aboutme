@@ -15,6 +15,8 @@ const movies = [
   },
 ];
 
+
+// I changed something (not)
 const movieElements = movies.map((obj) => {
   return (
     <section className="movieItem">
