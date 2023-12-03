@@ -1,0 +1,51 @@
+.movieItem {
+    text-align: center;
+  }
+  
+  .item {
+    max-width: 300px;
+  }
+  
+  
+  .content {
+    margin: 20px;
+  }
+  
+  .centered {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+  }
+  #head-container {
+    background-color: #f7f3f3;
+    border: #282c34;
+    border-radius: 12px;
+    border-style: solid;
+  
+    margin: 20px;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    padding: 20px;
+    width: 700px;
+  }
+  
+  #bold-title {
+    font-size: 40px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  
+  
+  #img1 {
+    width: 300px;
+    height: auto;
+  }
