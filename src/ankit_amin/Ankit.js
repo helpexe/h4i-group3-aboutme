@@ -11,7 +11,7 @@ function Ankit() {
         <ul>
             <li>Inception</li>
             <div>
-                <img src="About Me App/src/hp.jpeg" alt="Harry Potter Movie Poster" />
+                <img src="h4i-group3-aboutme/src/ankit_amin/hp.jpeg" alt="Harry Potter Movie Poster" />
             </div>
             <li>Entire Harry Potter Series</li> 
         </ul>
