@@ -1,0 +1,29 @@
+.container {
+    /* Set the width and height of the container */
+    width: 100%;
+    min-height: 100vh;
+  
+    /* Create a gradient background */
+    background-image: linear-gradient(to bottom, white, rgba(244,60,22,.8));
+  
+    /* Center the content vertically */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about {
+    /* Use a large, cursive font */
+    font-family: "Brush Script MT", cursive;
+    font-size: 72px;
+  
+    /* Set the text color */
+    color: black;
+  
+    /* Center the text horizontally */
+    text-align: center;
+}
+
+hr {
+    border: 1px solid black;
+}
