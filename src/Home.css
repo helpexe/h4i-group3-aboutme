@@ -1,29 +1,98 @@
-.container {
-    /* Set the width and height of the container */
+.home {
     width: 100%;
     min-height: 100vh;
-  
-    /* Create a gradient background */
-    background-image: linear-gradient(to bottom, white, rgba(244,60,22,.8));
-  
-    /* Center the content vertically */
+    background-color: #F6F6F6;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    justify-content: center; /* Center content vertically */
 }
+/*
+.trademark {
+  text-decoration: underline;
+  font-size: 20px;
+}
+*/
+.container {
+    /* Set the width of the container */
+
+    min-height: 100vh;
+
+    /* Create a gradient background */
+    background-image: linear-gradient(to bottom, #F6F6F6, rgba(244, 60, 22, 0.8));
+    border-top: 2px solid #101C41;
+    /* Added to create a black line at the top */
+
+
+}
+
+.names {
+    width: 911px;
+    /* Center the content horizontally */
+    display: flex;
+    flex-direction: row;
+}
+
+.slice {
+    /* Set a fixed width for each slice */
+    width: 20%;
+    /* Adjust the percentage as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    /* Include padding and border in the element's total width and height */
+}
+
+.slice:not(:last-child) {
+    border-right: 2px solid #101C41;
+    /* Change the color as needed */
+}
+
+.rotated-link {
+    /* Rotate the text 90 degrees left */
+    transform: rotate(-90deg);
+    /* Ensure that the rotation point is at the center */
+    transform-origin: center;
+    /* Styling for the link */
+    text-decoration: none;
+    color: #101C41;
+    font-family: "Source Serif Pro", serif; /* Change to Source Serif Pro */
+
+    font-size: 50px;
+    /* Prevent text from wrapping */
+
+    white-space: nowrap;
+    /* Add an initially transparent underline */
+
+    border-bottom: 2px solid transparent;
+    /* Add transition for color and underline */
+
+    transition: color 0.3s, transform 0.3s, border-bottom 0.3s;
+}
+
+.rotated-link:hover {
+    /* Remove the default underline */
+
+    text-decoration: none;
+    /* Set the link color on hover */
+
+    color: rgb(58, 69, 132);
+    border-bottom: 2px solid #333;
+    /* Solid underline on hover */
+}
+
+
 
 .about {
     /* Use a large, cursive font */
     font-family: "Brush Script MT", cursive;
     font-size: 72px;
-  
+
     /* Set the text color */
     color: black;
-  
+
     /* Center the text horizontally */
     text-align: center;
-}
-
-hr {
-    border: 1px solid black;
 }

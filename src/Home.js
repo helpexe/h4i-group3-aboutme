@@ -1,29 +1,37 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import "./Home.css"
+// Home.js
 
+import React from 'react';
+import { Link } from 'react-router-dom';
+import "./Home.css";
 
 const Home = () => (
-    <>
-    <div className="container">
-      <section>
-        <h1 class="about">About Me</h1>
-        <hr></hr>
-      </section>
-      <section>
-          <Link to="/ankit">Ankit Amin</Link>
-          <br></br><hr></hr>
-          <Link to="/christopher">Christopher Giang</Link>
-          <br></br><hr></hr>
-          <Link to="/gavin">Gavin Crisologo</Link>
-          <br></br><hr></hr>
-          <Link to="/helen">Helen Li</Link>
-          <br></br><hr></hr>
-          <Link to="/will-josh">Will-Josh Njeumi</Link>  
-      </section>
-    </div>
-    </>
-)
+  <>
+    <div className="home">
+      <img src="./homeImage.png" alt="Homepage" />
+      {/* centered trademark at top <div className="trademark">A Bootcamp Group 3 Production</div>*/}
 
+      
+    </div>
+    <div className="container">
+      <div className="names">
+        <div className="slice">
+          <Link to="/ankit" className="rotated-link">Ankit Amin</Link>
+        </div>
+        <div className="slice">
+          <Link to="/christopher" className="rotated-link">Christopher Giang</Link>
+        </div>
+        <div className="slice">
+          <Link to="/gavin" className="rotated-link">Gavin Crisologo</Link>
+        </div>
+        <div className="slice">
+          <Link to="/helen" className="rotated-link">Helen Li</Link>
+        </div>
+        <div className="slice">
+          <Link to="/will-josh" className="rotated-link">Will-Josh Njeumi</Link>
+        </div>
+      </div>
+    </div>
+  </>
+);
 
 export default Home;
