@@ -1,26 +1,27 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import "./Home.css"
 
 
 const Home = () => (
     <>
-    <ul>
-      <li>
-        <Link to="/ankit">Ankit</Link>
-      </li>
-      <li>
-        <Link to="/christopher">Christopher</Link>
-      </li>
-      <li>
-        <Link to="/gavin">Gavin</Link>
-      </li>
-      <li>
-        <Link to="/helen">Helen</Link>
-      </li>
-      <li>
-        <Link to="/will-josh">Will-Josh</Link>
-      </li>
-    </ul>
+    <div className="container">
+      <section>
+        <h1 class="about">About Me</h1>
+        <hr></hr>
+      </section>
+      <section>
+          <Link to="/ankit">Ankit Amin</Link>
+          <br></br><hr></hr>
+          <Link to="/christopher">Christopher Giang</Link>
+          <br></br><hr></hr>
+          <Link to="/gavin">Gavin Crisologo</Link>
+          <br></br><hr></hr>
+          <Link to="/helen">Helen Li</Link>
+          <br></br><hr></hr>
+          <Link to="/will-josh">Will-Josh Njeumi</Link>  
+      </section>
+    </div>
     </>
 )
 
