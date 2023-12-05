@@ -5,54 +5,53 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    /* Center content vertically */
+    justify-content: center; /* Center content vertically */
 }
+/*
+.trademark {
+  text-decoration: underline;
+  font-size: 20px;
+}
+*/
 
-body {
-    margin: 0;
-}
+
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* Set the width of the container */
+
     min-height: 100vh;
+
+    /* Create a gradient background */
     background-image: linear-gradient(to bottom, #F6F6F6, rgba(244, 60, 22, 0.8));
     border-top: 2px solid #101C41;
+    /* Added to create a black line at the top */
 }
 
 .names {
-    display: flex;
-    justify-content: center;
-    /* Center the content horizontally */
-    align-items: center;
-    /* Center the content vertically */
-    text-align: center;
-    /* Center the text within each slice */
     width: 911px;
-    /* Make the container take up the full width */
+    /* Center the content horizontally */
+    display: flex;
+    flex-direction: row;
 }
 
 .slice {
+    /* Set a fixed width for each slice */
     width: 20%;
     /* Adjust the percentage as needed */
     display: flex;
-    flex-direction: column;
-    /* Change to column layout */
     align-items: center;
     justify-content: center;
     position: relative;
     box-sizing: border-box;
-    /* Add some spacing around each slice if needed */
+    /* Include padding and border in the element's total width and height */
 }
 
 .slice:not(:last-child) {
-    border-right: 2px solid #101C41;
+    border-right: 2px solid #101C41; /* 101C41*/
     /* Change the color as needed */
 }
 
-.rotated-link {
+.rotated_link {
     /* Rotate the text 90 degrees left */
     transform: rotate(-90deg);
     /* Ensure that the rotation point is at the center */
@@ -74,7 +73,7 @@ body {
     transition: color 0.3s, transform 0.3s, border-bottom 0.3s;
 }
 
-.rotated-link:hover {
+.rotated_link:hover {
     /* Remove the default underline */
 
     text-decoration: none;
@@ -83,4 +82,16 @@ body {
     color: rgb(58, 69, 132);
     border-bottom: 2px solid #333;
     /* Solid underline on hover */
+}
+
+.about {
+    /* Use a large, cursive font */
+    font-family: "Brush Script MT", cursive;
+    font-size: 72px;
+
+    /* Set the text color */
+    color: black;
+
+    /* Center the text horizontally */
+    text-align: center;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Gavin.css";
+import styles from "./Gavin.module.css";
 const movies = [
   {
     name: "Everything Everywhere All At Once",
@@ -15,9 +15,11 @@ const movies = [
   },
 ];
 
+
+// I changed something (not)
 const movieElements = movies.map((obj) => {
   return (
-    <section className="movieItem">
+    <section className={styles.movieItem}>
       <h3>{obj.name}</h3>
       <img width="175px" src={obj.url} alt={obj.name + " Poster"} />
     </section>
@@ -26,12 +28,12 @@ const movieElements = movies.map((obj) => {
 
 function Gavin() {
   return (
-    <div className="App">
-      <header class="centered">
-        <section id="head-container">
-          <img id="img1" src="/gavin_crisologo/gavin_photo1.jpg" alt="Me" />
+    <div>
+      <header class={styles.centered}>
+        <section class={styles.head_container}>
+          <img class={styles.img1} src="/gavin_crisologo/gavin_photo1.jpg" alt="Me" />
           <section>
-            <h1 id="bold-title">Gavin Crisologo</h1>
+            <h1 class={styles.bold_title}>Gavin Crisologo</h1>
             <h3>
               Instagram: @_gavin.exe <br></br>
               Discord: help.exe
@@ -41,15 +43,15 @@ function Gavin() {
       </header>
       <body>
         <hr></hr>
-        <section className="content">
+        <section className={styles.content}>
           <h2>Favorite Movies and Shows</h2>
-          <div className="container">{movieElements}</div>
+          <div className={styles.container}>{movieElements}</div>
         </section>
         <hr></hr>
-        <section className="content">
+        <section className={styles.content}>
           <h2>More about me...</h2>
-          <div className="container">
-            <section className="item">
+          <div className={styles.container}>
+            <section className={styles.item}>
               <h2>Hobbies</h2>
               <ul>
                 <li>Journaling</li>
@@ -57,7 +59,7 @@ function Gavin() {
                 <li>Watching pointless YouTube videos</li>
               </ul>
             </section>
-            <section className="item">
+            <section className={styles.item}>
               <h2>What I'm up to</h2>
               <ul>
                 <li>Member of Hack4Impact Bootcamp! :D</li>
@@ -67,6 +69,7 @@ function Gavin() {
                   <a
                     href="https://leanonmechat.wixsite.com/maryland"
                     target="_blank"
+                    rel="noreferrer"
                   >
                     visit our website!
                   </a>
@@ -82,22 +85,8 @@ function Gavin() {
           </div>
         </section>
         <hr></hr>
-        <div className="container"></div>
+        <div className={styles.container}></div>
       </body>
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
     </div>
   );
 }
