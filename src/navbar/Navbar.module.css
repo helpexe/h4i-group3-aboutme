@@ -1,0 +1,27 @@
+.nav {
+    box-sizing: border-box; 
+    /* border-style: solid; */
+    background-color: rgb(226, 220, 220);
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+
+
+.nav a {
+    color: inherit;
+    padding: .25rem;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #000000;
+}

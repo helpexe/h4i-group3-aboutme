@@ -1,5 +1,8 @@
 import React from 'react'
 import styles from "./Gavin.module.css";
+
+import HomeNavbar from "../navbar/Navbar";
+
 const movies = [
   {
     name: "Everything Everywhere All At Once",
@@ -29,6 +32,7 @@ const movieElements = movies.map((obj) => {
 function Gavin() {
   return (
     <div>
+      <HomeNavbar />
       <header class={styles.centered}>
         <section class={styles.head_container}>
           <img class={styles.img1} src="/gavin_crisologo/gavin_photo1.jpg" alt="Me" />
