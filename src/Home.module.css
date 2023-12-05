@@ -13,6 +13,9 @@
   font-size: 20px;
 }
 */
+
+
+
 .container {
     /* Set the width of the container */
 
@@ -22,8 +25,6 @@
     background-image: linear-gradient(to bottom, #F6F6F6, rgba(244, 60, 22, 0.8));
     border-top: 2px solid #101C41;
     /* Added to create a black line at the top */
-
-
 }
 
 .names {
@@ -46,11 +47,11 @@
 }
 
 .slice:not(:last-child) {
-    border-right: 2px solid #101C41;
+    border-right: 2px solid #101C41; /* 101C41*/
     /* Change the color as needed */
 }
 
-.rotated-link {
+.rotated_link {
     /* Rotate the text 90 degrees left */
     transform: rotate(-90deg);
     /* Ensure that the rotation point is at the center */
@@ -72,7 +73,7 @@
     transition: color 0.3s, transform 0.3s, border-bottom 0.3s;
 }
 
-.rotated-link:hover {
+.rotated_link:hover {
     /* Remove the default underline */
 
     text-decoration: none;
@@ -82,8 +83,6 @@
     border-bottom: 2px solid #333;
     /* Solid underline on hover */
 }
-
-
 
 .about {
     /* Use a large, cursive font */

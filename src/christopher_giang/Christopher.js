@@ -89,12 +89,12 @@ function Christopher() {
     <div className={styles.christopherContainer}>
       <Navbar />
 
-      <div id={styles.introduction}>
+      <div class={styles.introduction}>
         <title>About Me</title>
-        <h1 id={styles.title}>Christopher Giang</h1>
+        <h1 class={styles.title}>Christopher Giang</h1>
         <img
           src="./christopher_giang/headshot.jpg"
-          id={styles.aboutMeImage}
+          class={styles.aboutMeImage}
           alt="About Me Pic"
         />
         <p className={styles.introductionText}>
@@ -108,15 +108,15 @@ function Christopher() {
       <div className={styles.tinyBreak} />
       <ListItems id={styles.hobbies} title="Hobbies" items={hobbies} />
       <div className={styles.tinyBreak} />
-      <h2 id={styles.favMovies}>Fav Movies</h2>
+      <h2 class={styles.favMovies}>Fav Movies</h2>
       <FavThing items={favMovies} />
-      <h2 id={styles.favShows}>Fav Shows</h2>
+      <h2 class={styles.favShows}>Fav Shows</h2>
       <FavThing items={favShows} />
       <div className={styles.tinyBreak} />
-      <div id={styles.video}>
+      <div id={styles.video}> 
         <iframe
           src="https://www.youtube.com/embed/nj1vIL11sO4?si=RHHWll4PCRm9gsgf"
-          id={styles.youtube}
+          class={styles.youtube}
           title="YouTube Video"
         ></iframe>
       </div>

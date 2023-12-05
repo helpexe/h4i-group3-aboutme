@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Helen.css";
+import styles from "./Helen.module.css";
 
 function Helen() {
     return (
