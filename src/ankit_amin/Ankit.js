@@ -11,7 +11,7 @@ function Ankit() {
         <ul class={styles.ul}>
             <li>Inception</li>
             <div>
-                <img src="ankit_amin/hp.jpeg" alt="Harry Potter Movie Poster" />
+                <img src="./ankit_amin/hp.jpeg" alt="Harry Potter Movie Poster" />
             </div>
             <li>Entire Harry Potter Series</li> 
         </ul>
