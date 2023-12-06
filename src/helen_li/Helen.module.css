@@ -1,0 +1,434 @@
+.my_app {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .my_app .div {
+    background-color: #ffffff;
+    height: 4847px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .my_app .moosic {
+    background-color: #133dab;
+    border-radius: 25px;
+    height: 1245px;
+    left: 16px;
+    position: absolute;
+    top: 3588px;
+    width: 1408px;
+  }
+  
+  .my_app .xg {
+    height: 423px;
+    left: 1005px;
+    position: absolute;
+    top: 725px;
+    width: 317px;
+  }
+  
+  .my_app .edge_cards {
+    background-color: #ffffff;
+    border-radius: 14px;
+    height: 423px;
+    position: relative;
+    width: 315px;
+  }
+  
+  .my_app .xg_img {
+    background-image: url(img/xg-img.png);
+    background-size: cover;
+    height: 244px;
+    left: 35px;
+    object-fit: cover;
+    position: absolute;
+    top: 29px;
+    width: 244px;
+  }
+  
+  .my_app .text_wrapper {
+    color: #133dab;
+    font-family: "Optima-BoldItalic", Helvetica;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    left: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 306px;
+  }
+  
+  .my_app .mitski {
+    height: 423px;
+    left: 86px;
+    position: absolute;
+    top: 725px;
+    width: 317px;
+  }
+  
+  .my_app .mitski_img {
+    background-image: url(img/mitski-img.png);
+    background-size: cover;
+    height: 244px;
+    left: 35px;
+    object-fit: cover;
+    position: absolute;
+    top: 31px;
+    width: 241px;
+  }
+  
+  .my_app .text_wrapper_2 {
+    color: #133dab;
+    font-family: "Optima-BoldItalic", Helvetica;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    left: 34px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 306px;
+  }
+  
+  .my_app .ive {
+    height: 423px;
+    left: 563px;
+    position: absolute;
+    top: 725px;
+    width: 316px;
+  }
+  
+  .my_app .center_cards {
+    background-color: #ffffff;
+    border-radius: 14px;
+    height: 423px;
+    position: relative;
+    width: 314px;
+  }
+  
+  .my_app .ive_img {
+    background-image: url(img/ive-img.png);
+    background-size: cover;
+    height: 245px;
+    left: 36px;
+    object-fit: cover;
+    position: absolute;
+    top: 30px;
+    width: 242px;
+  }
+  
+  .my_app .wte {
+    height: 423px;
+    left: 563px;
+    position: absolute;
+    top: 218px;
+    width: 316px;
+  }
+  
+  .my_app .wte_img {
+    background-image: url(img/wte-img.png);
+    background-size: cover;
+    height: 244px;
+    left: 35px;
+    object-fit: cover;
+    position: absolute;
+    top: 30px;
+    width: 244px;
+  }
+  
+  .my_app .niki_img {
+    background-image: url(img/niki-img.png);
+    background-size: cover;
+    height: 244px;
+    left: 35px;
+    object-fit: cover;
+    position: absolute;
+    top: 30px;
+    width: 244px;
+  }
+  
+  .my_app .text_wrapper_3 {
+    color: #133dab;
+    font-family: "Optima-BoldItalic", Helvetica;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    left: 37px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 295px;
+    width: 242px;
+  }
+  
+  .my_app .niki {
+    height: 423px;
+    left: 86px;
+    position: absolute;
+    top: 218px;
+    width: 317px;
+  }
+  
+  .my_app .text_wrapper_4 {
+    color: #133dab;
+    font-family: "Optima-BoldItalic", Helvetica;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    left: 34px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 295px;
+    width: 242px;
+  }
+  
+  .my_app .ve {
+    height: 423px;
+    left: 1007px;
+    position: absolute;
+    top: 218px;
+    width: 317px;
+  }
+  
+  .my_app .ve_img {
+    background-image: url(img/ve-img.png);
+    background-size: cover;
+    height: 244px;
+    left: 33px;
+    object-fit: cover;
+    position: absolute;
+    top: 30px;
+    width: 247px;
+  }
+  
+  .my_app .text_wrapper_5 {
+    color: #133dab;
+    font-family: "Optima-BoldItalic", Helvetica;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    left: 27px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 295px;
+    width: 230px;
+  }
+  
+  .my_app .moosic_title {
+    height: 91px;
+    left: 474px;
+    position: absolute;
+    top: 55px;
+    width: 462px;
+  }
+  
+  .my_app .div_wrapper {
+    background-color: #ffffff;
+    border-radius: 18px;
+    height: 91px;
+    position: relative;
+    width: 460px;
+  }
+  
+  .my_app .text_wrapper_6 {
+    color: #133dab;
+    font-family: "Optima-Bold", Helvetica;
+    font-size: 45px;
+    font-weight: 700;
+    left: 26px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 18px;
+  }
+  
+  .my_app .cat_break {
+    height: 871px;
+    left: 311px;
+    position: absolute;
+    top: 2651px;
+    width: 871px;
+  }
+  
+  .my_app .overlap_2 {
+    background-image: url(img/cat-img.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 871px;
+    position: relative;
+    width: 869px;
+  }
+  
+  .my_app .cat_title {
+    color: #133dab;
+    font-family: "Optima-BoldItalic", Helvetica;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 700;
+    left: 237px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 100px;
+  }
+  
+  .my_app .likes_dislikes {
+    height: 888px;
+    left: 283px;
+    position: absolute;
+    top: 1642px;
+    width: 882px;
+  }
+  
+  .my_app .like_title {
+    color: #133dab;
+    font-family: "Optima-BoldItalic", Helvetica;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 700;
+    left: 304px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0px;
+  }
+  
+  .my_app .flexcontainer {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    height: 308px;
+    left: 0;
+    position: absolute;
+    top: 60px;
+    width: 874px;
+  }
+  
+  .my_app .text_likes {
+    align-self: stretch;
+    color: #133dab;
+    font-family: "Optima-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 82px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .my_app .text_dislikes {
+    align-self: stretch;
+    color: #133dab;
+    font-family: "Optima-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 82px;
+    position: relative;
+    text-align: center;
+  }
+  
+  .my_app .span {
+    color: #133dab;
+    font-family: "Optima-Regular", Helvetica;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  .my_app .dislike_title {
+    color: #133dab;
+    font-family: "Optima-BoldItalic", Helvetica;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 700;
+    left: 277px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 585px;
+  }
+  
+  .my_app .flexcontainer_2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    height: 243px;
+    left: 131px;
+    position: absolute;
+    top: 645px;
+    width: 612px;
+  }
+  
+  .my_app .major_pos {
+    height: 149px;
+    left: 0;
+    position: absolute;
+    top: 1347px;
+    width: 1444px;
+  }
+  
+  .my_app .overlap_3 {
+    background-color: #133dab;
+    height: 149px;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .my_app .text_wrapper_10 {
+    color: #ffffff;
+    font-family: "Optima-BoldItalic", Helvetica;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 700;
+    left: 223px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 47px;
+  }
+  
+  .my_app .text_wrapper_11 {
+    color: #ffffff;
+    font-family: "Optima-BoldItalic", Helvetica;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 700;
+    left: 979px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 47px;
+  }
+  
+  .my_app .astrick {
+    background-image: url(img/astrick.png);
+    background-position: 50% 50%;
+    background-size: contain;
+    height: 55px;
+    left: 610px;
+    position: absolute;
+    top: 51px;
+    width: 220px;
+  }
+  
+  .my_app .title_page {
+    background-image: url(img/title-page.png);
+    background-position: 50% 50%;
+    height: 1241px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }

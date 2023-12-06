@@ -1,0 +1,108 @@
+.christopherContainer {
+  /* Container styles */
+  background: #2a2f4c;
+  font-family: 'DM Sans', sans-serif;
+  text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&display=swap');
+
+/* Body styles */
+
+
+.introduction {
+  font-size: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 50px;
+  text-align: center;
+} 
+
+.introductionText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #90a0d9;
+  margin: auto;
+  width: 70%;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+
+/* Header styles */
+
+/* Not sure how tags work in modules, I don't know if they're supported but eh hopefully this is fine */
+.title, .favMovies, .favShows {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: #bdbddd;
+}
+
+.aboutMeImage {
+  width: 301px;
+  height: auto;
+  border: 10px solid #ffffff;
+}
+
+/* Break styles */
+.tinyBreak {
+  margin-top: 2%;
+  margin-bottom: 3%;
+}
+
+.longBreak {
+  border: 10px solid #324d4d;
+  border-radius: 5px;
+  height: 0px;
+  width: 50%;
+  text-align: center;
+  margin-top: 4%;
+  margin-bottom: 3%;
+}
+
+.youtube {
+  width: 40rem;
+  height: 25rem;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.navbar ul:first-child {
+  padding-left: 10px;
+}

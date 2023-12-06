@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Will-Josh.css";
+import styles from "./Will-Josh.module.css";
 
 function Will_Josh() {
     return (
