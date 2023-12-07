@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from "./Gavin.module.css";
-
 import HomeNavbar from "../navbar/Navbar";
 
 const movies = [

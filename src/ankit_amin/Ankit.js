@@ -1,9 +1,11 @@
 import React from 'react'
 import styles from "./Ankit.module.css";
+import HomeNavbar from "../navbar/Navbar";
 
 function Ankit() {
     return (
 <body class={styles.container}>
+    <HomeNavbar style="background-color:red"/>
     <h1 class={styles.font1}>Welcome All!</h1>
     <h2 class={styles.font2}>My name is Ankit Amin and I am Computer Science a freshman from Dubai (originally from India)</h2>
     <h2 class={styles.font3}>Favourite Movies: </h2>
