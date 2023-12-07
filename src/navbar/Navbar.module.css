@@ -1,0 +1,47 @@
+.nav {
+    box-sizing: border-box; 
+    /* border-style: solid; */
+    /* background-color: rgb(255, 255, 255); */
+    color: #ff5b37;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 0.2rem;
+    padding: 0 1rem;
+}
+
+
+.title {
+    font-size: 2rem;
+
+}
+
+.border {
+    border: 0;
+    clear: both;
+    display:block;
+    width: 100%;
+    background-color:#000000;
+    height: 1.5px;
+}
+
+
+
+.nav a {
+    color: inherit;
+    padding: .25rem;
+    text-decoration: none;
+
+    /* Transition */
+    box-shadow: inset 0 0 0 0 #ff5b37;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+
+.nav a:hover {
+    box-shadow: inset 100px 0 0 0 #ff5b37;
+    color: white;
+}

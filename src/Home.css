@@ -13,6 +13,9 @@ body {
     margin: 0;
 }
 
+
+
+
 .container {
     display: flex;
     justify-content: center;
@@ -48,11 +51,11 @@ body {
 }
 
 .slice:not(:last-child) {
-    border-right: 2px solid #101C41;
+    border-right: 2px solid #101C41; /* 101C41*/
     /* Change the color as needed */
 }
 
-.rotated-link {
+.rotated_link {
     /* Rotate the text 90 degrees left */
     transform: rotate(-90deg);
     /* Ensure that the rotation point is at the center */
@@ -74,7 +77,7 @@ body {
     transition: color 0.3s, transform 0.3s, border-bottom 0.3s;
 }
 
-.rotated-link:hover {
+.rotated_link:hover {
     /* Remove the default underline */
 
     text-decoration: none;
