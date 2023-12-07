@@ -13,20 +13,25 @@ const Home = () => (
 
     <div className="container">
       <div className="names">
+        <hr></hr>
         <div className="slice">
-          <Link to="/ankit">Ankit Amin</Link>
+          <Link to="/ankit" data-replace="Ankit Amin" class="name"><span>Ankit Amin</span></Link>
         </div>
+        <hr></hr>
         <div className="slice">
-          <Link to="/christopher">Christopher Giang</Link>
+          <Link to="/christopher" data-replace="Christopher Giang" class="name"><span>Christopher Giang</span></Link>
         </div>
+        <hr></hr>
         <div className="slice">
-          <Link to="/gavin">Gavin Crisologo</Link>
+          <Link to="/gavin" data-replace="Gavin Crisologo" class="name"><span>Gavin Crisologo</span></Link>
         </div>
+        <hr></hr>
         <div className="slice">
-          <Link to="/helen">Helen Li</Link>
+          <Link to="/helen" data-replace="Helen Li" class="name"><span>Helen Li</span></Link>
         </div>
+        <hr></hr>
         <div className="slice">
-          <Link to="/will-josh">Will-Josh Njeumi</Link>
+          <Link to="/will-josh" data-replace="Will-Josh Njeumi" class="name"><span>Will-Josh Njeumi</span></Link>
         </div>
       </div> 
     </div>
