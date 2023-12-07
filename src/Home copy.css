@@ -13,12 +13,6 @@ body {
     margin: 0;
 }
 
-.home_image {
-    max-width: 100%;
-    height: auto;
-    width: auto\9;
-}
-
 
 
 
@@ -26,10 +20,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-
-    justify-content: flex-start;
-
     min-height: 100vh;
     background-image: linear-gradient(to bottom, #F6F6F6, rgba(244, 60, 22, 0.8));
     border-top: 2px solid #101C41;
@@ -45,30 +35,26 @@ body {
     /* Center the text within each slice */
     width: 911px;
     /* Make the container take up the full width */
-    flex-direction: column;
 }
 
 .slice {
     width: 20%;
     /* Adjust the percentage as needed */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     /* Change to column layout */
     align-items: center;
     justify-content: center;
     position: relative;
     box-sizing: border-box;
-    padding: 25px 50px 25px 50px;
     /* Add some spacing around each slice if needed */
 }
 
 .slice:not(:last-child) {
-    border-bottom: 2px solid #101C41; /* 101C41*/
+    border-right: 2px solid #101C41; /* 101C41*/
     /* Change the color as needed */
 }
 
-
-/* DEFUNCT */
 .rotated_link {
     /* Rotate the text 90 degrees left */
     transform: rotate(-90deg);
@@ -89,7 +75,7 @@ body {
     /* Add transition for color and underline */
 
     transition: color 0.3s, transform 0.3s, border-bottom 0.3s;
-} 
+}
 
 .rotated_link:hover {
     /* Remove the default underline */
