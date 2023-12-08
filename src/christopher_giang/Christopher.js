@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Christopher.module.css";
 import FavThing from "./FavThing";
 import ListItems from "./ListItems";
+import { Link } from 'react-router-dom';
 
 const favMovies = [
   {
@@ -66,7 +67,7 @@ const Navbar = () => {
     <nav className={styles.navbar}>
       <ul>
         <li>
-          <a href="#">Home</a>
+          <Link className={styles.link} to="/">Home</Link>
         </li>
       </ul>
       <ul>
